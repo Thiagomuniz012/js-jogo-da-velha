@@ -2,21 +2,6 @@ var jogador, vencedor = null;
 var jogadorSelecionado = document.getElementById('jogador-selecionado');
 var vencedorSelecionado = document.getElementById('vencedor-selecionado');
 
-function iniciar(){
-    vencedor = null;
-    vencedorSelecionado.innerHTML = '';
-
-    for (var i = 1; i <= 9; i++) {
-        var quadrado = document.getElementById(i);
-        quadrado.style.background = '#303030';
-        quadrado.style.color = '#303030';
-        quadrado.innerHTML = '-';
-    }
-
-    mudarJogador('X');
-}
-
-
 function escolherQuadrado(id) {
     if (vencedor !== null) {
         return;
