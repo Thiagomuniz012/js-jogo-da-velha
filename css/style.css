@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+body {
+    text-align: center;
+    background-color: #303030;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+}
+ 
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quadrado {
+    width: 80px;
+    height: 80px;
+    cursor: pointer;
+    font-size: 60px;
+    color: #303030;
+    background-color: #303030;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
+
+.jogador, .vencedor {
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+button {
+    margin-top: 10px;
+    width: 140px;
+    height: 40px;
+    background: transparent;
+    cursor: pointer;
+    border: 3px solid #666666;
+    border-radius: 5px;
+    color: #666666;
+    font-size: 100%;
+    font-weight: bold;
+}
+
+button:hover{
+    background: rgb(59, 59, 59);
+}
+
+.q1, .q2, .q3, .q4, .q5, .q6{
+    border-bottom: 8px solid #666666;
+}
+
+.q1, .q2, .q4, .q5, .q7, .q8{
+    border-right: 8px solid #666666;
+}
+
+.cor-texto{
+    color: #666666;
+}
